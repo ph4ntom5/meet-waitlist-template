@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", "sans-serif";
+}
+
+body {
+  background-color: #013243;
+}
+
+body h1 {
+  position: relative;
+  margin: 20rem 0 0 3rem;
+  color: #32f5c8;
+  font-size: 5.2rem;
+  line-height: 6.4rem;
+  font-weight: 600;
+  z-index: 100;
+}
+
+body p {
+  margin: 3rem 0 0 3rem;
+  padding-right: 14rem;
+  color: #aabdc7;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+body .logo {
+  margin: 3rem 0 0 3rem;
+}
+
+body .avatar-6 {
+  position: absolute;
+  top: 61rem;
+  left: 23rem;
+}
+
+body .avatar-2 {
+  position: absolute;
+  top: 15rem;
+  right: 14rem;
+  z-index: 2;
+}
+
+body .avatar-3 {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  z-index: 1;
+}
+
+body button {
+  margin: 3rem 0 0 3rem;
+  background-color: #32f5c8;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 2.8rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 8rem 0 3rem 0;
+}
+
+footer .twitter {
+  margin: 18rem 0 0 3rem;
+  cursor: pointer;
+}
+
+footer .follow {
+  margin: 19rem 0 0 1.6rem;
+}
