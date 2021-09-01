@@ -15,7 +15,6 @@ $Text: #aabdc7;
 html {
   font-size: 62.5%;
   font-family: "Inter", "sans-serif";
-  overflow: hidden;
 }
 
 body {
@@ -43,7 +42,7 @@ body {
 
   .avatar-6 {
     position: absolute;
-    top: 71rem;
+    top: 55rem;
     left: 23rem;
   }
   .avatar-2 {
@@ -71,10 +70,14 @@ body {
   }
 }
 
+section {
+  margin-bottom: 2rem;
+}
+
 footer {
   display: flex;
   flex-direction: row;
-  margin: 8rem 0 3rem 0;
+  margin: rem 0 3rem 0;
   .twitter {
     margin: 18rem 0 0 3rem;
     cursor: pointer;
