@@ -38,14 +38,14 @@ body .logo {
 
 body .avatar-6 {
   position: absolute;
-  top: 61rem;
+  top: 66rem;
   left: 23rem;
 }
 
 body .avatar-2 {
   position: absolute;
   top: 15rem;
-  right: 14rem;
+  right: 6rem;
   z-index: 2;
 }
 
